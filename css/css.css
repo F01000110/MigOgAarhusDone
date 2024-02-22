@@ -1,0 +1,122 @@
+ :root {
+--contrast:#000000;
+--backgr:#e6eaee;
+font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: var(--backgr);
+}
+ main {
+   background-color:var(--backgr);
+   color:var(--contrast);
+ }
+.topnav {
+  background-color: var(--backgr);
+  left: 250px;
+  padding: 30px;
+  text-align: center;
+  top: 250px;
+}
+.topnav a {
+  color: #000000;
+  font-size: 21px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.logo {
+  margin-left: 20px;
+  margin-top: -85px;
+  position: absolute;
+  width: 17%;
+}
+.card {
+  box-shadow: 0 0px 7px #000000;
+  transition: 0.3s;
+  padding: 18px;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 175px;
+ }
+ .card:hover {  
+  border-radius: 30px;
+  transition: 0.9s;
+  background-color: #000000;
+  color: #e6eaee;
+ }
+.baggrundsbillede {
+  margin-left: 30px;
+}
+h1 {
+  font-size: 200%;
+}
+.dates {
+  display: inline-block;
+  justify-content: center;
+}
+.date {
+  margin-left: 27px;
+  position:relative;
+}
+.menudrop {
+  margin-left: -55px;
+  margin-top: -80px;
+  position: absolute;
+  width: 2.5%;
+}
+.searchbar {
+  position: absolute;
+  margin-left: 627px;
+  margin-top: -35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 8px;
+  transition: border-color 0.3s;
+  float: right;
+}
+footer {
+  background-color: var(--backgr);
+  margin: 25px;
+  margin-left: -10px;
+  padding: 30px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+img {
+ width: 96%;
+}
+.sociallogo {
+ position: absolute;
+ width:20%;
+ display: flex;
+ margin-top: -100px;
+}
+.knap {
+ background-color: #fff;
+ padding: 7px 8px;
+ text-align: center;
+ display: inline-block;
+ border-radius: 10px;
+ border: 1px solid var(--backgr);
+ position: relative;
+ margin-top: 15px;
+}
+.knap:hover {  
+ border-radius: 10px;
+ transition: 0.2s;
+ box-shadow: 0 0px 7px #000000;
+}
+a:link {
+ color: rgb(0, 0, 0);
+}
+a {
+ font-size: 13px;
+}
+
+.containermiddle {
+display: flex;
+align-content: flex-start;
+gap: 455px;
+}
